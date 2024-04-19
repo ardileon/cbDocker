@@ -50,6 +50,7 @@ mvn clean-install
 Problem: You cannot create a .jar after you change localhost to different value. 
 Answer : 
 ```bash
-mvn install -DskipTests=true
+mvn clean
+mvn install
 ```
-and press CTRL+ENTER, if you press only enter it will not work.
+and press ENTER if error then press CTRL+ENTER.
