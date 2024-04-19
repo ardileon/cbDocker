@@ -45,3 +45,11 @@ mvn clean-install
 3. Cek di bagian extension docker pada IMAGES 
 4. Diklik namaImages -> klik kanan run version berapa
 5. Kalau mau stop Diklik namaImages -> klik kanan stop version berapa
+
+## Readminder
+Problem: You cannot create a .jar after you change localhost to different value. 
+Answer : 
+```bash
+mvn install -DskipTests=true
+```
+and press CTRL+ENTER, if you press only enter it will not work.
